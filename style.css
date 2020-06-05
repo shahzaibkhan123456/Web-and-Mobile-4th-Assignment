@@ -1,0 +1,374 @@
+*{
+  margin: 0px;
+}
+
+
+/* ---------------------HEADER------------- */
+@import url("https://fonts.googleapis.com/css?family=Anton|Gugli|Lato|Roboto|Sofia&display=swap");
+
+:root{
+    --light-gray: #2b3032a1;
+    --primary-color: #118594;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",Cursive;
+    --sofia:"Sofia",Cursive;
+
+}
+.primary-color{
+    color:var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color) !important;
+}
+
+.text-color{
+    color: var(--text-color);
+
+}
+
+.font-roboto{
+    font-family:var(--roboto);
+}
+
+.lightblue{
+    color: lightblue;
+}
+
+header{
+    background-color: var(--primary-color);
+    font-family: var(--roboto);
+}
+header .site-title{
+    font-family: var(--gugi);
+
+}
+
+.container .dropdown-toggle,
+.container .dropown-item{
+    font-size: 0.7em;
+}
+
+.header-link a{
+    font-size: 0.9em;
+    text-decoration: none ;
+    color: white;
+}
+
+
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment:local;
+    padding-top: 70px;
+    padding-bottom: 70px; 
+    margin: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+     
+}
+#services h1 ::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services
+{
+    margin-top: 40px;
+}       
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 90px;
+    border: 5px solid #efefef;
+    border-radius: 50%;
+}
+#services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color:#ccc;
+}
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s; 
+}
+
+
+
+/* ------------------SECOND SLIDER */
+
+.site-slider-two{
+    position: relative;
+    height: 30%;
+}
+
+.site-slider-two-product{
+    height: 25rem;
+    position: relative;
+    overflow: hidden;
+
+}
+.site-slider-two .product img{
+    width: 90%;
+    margin: auto;
+
+}
+
+.site-btn .btn-span{
+    padding: 0.8em 1.9em;
+    border-radius: 4em;
+    border: 1px solid var(--border);
+    background-color: white;
+    color: var(--light-gray);
+}
+
+.site-two .slick-track .product :hover span{
+    background-color: var(--primary-color);
+}
+
+ #owl-demo .item{
+    margin: 50px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  } 
+  .owl-1{
+      background: lightgrey;
+      margin: 50px;
+      display: flex;
+ }
+ h2{
+     text-align: center;
+     margin-top:25px;
+     color: red;
+     
+ }
+ .pp1{
+    text-align: center;
+    margin-top:25px;
+    color: maroon;
+ }
+ .card{
+     margin: 50px;
+ }
+
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: black;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+.flex{
+
+    display: flex;
+    margin: 25px;
+    box-shadow: 2px 2px 2px 1px;
+    background: lightslategray;
+    justify-content: center;
+}  
+.flex1{
+
+    display: flex;
+    margin: 25px;
+    box-shadow: 2px 2px 2px 1px;
+    background: lightslategray;
+    justify-content: center;
+}
+.card{
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 55px;
+}
+
+
+.shop1{
+    color: #00755E;
+
+}
+.shop2{
+    color: #EA1048 ;
+
+}
+@media only screen and (max-width: 798px) {
+    .card {
+      margin: 1px;
+    }
+  }
+
+/* ------------ABOUT-------- */
+.about{
+  background: black;
+  padding: 25px;
+
+}
+.about1{
+  color: white;
+  text-align: center;
+}
+.about2{
+  color: lightsteelblue;
+  text-align: center;
+}
+.about3{
+  color: white;
+  justify-content: center !important;
+  text-align: center !important;
+
+}
+
+
+
+#contact
+{
+    background: #efefef;
+    padding-top: 40;
+    padding-bottom: 40px;
+    color: #777;
+    margin: 55px;
+    
+}
+.contact-form
+{
+    padding: 15px;
+    
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important; 
+}
+::placeholder
+{
+    color: #999 !important;
+} 
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 14px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+.touch{
+  color: black;
+  text-align: center;
+}
+.touch1{
+  color: red;
+  text-align: center;
+}
+
+/*--------Footer--------------*/
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
+
+/*-----Navigation-----*/
+
+#nav-bar
+{
+    position:sticky;
+    
+    
+}
+.navbar-brand
+{
+    height: 80px;
+    padding-left: 30px;
+    
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+    
+}
+.navbar
+{
+    background: #9CF1F3;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600 !important;
+    font-size: 16px;
+    
+}
+h2{
+  text-align: center;
+}
+
+.awan{
+    font-size: 25px;
+    color: #681564;
+}
